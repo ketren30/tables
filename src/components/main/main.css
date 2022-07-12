@@ -1,0 +1,46 @@
+.tabl {
+    color: darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    border: dashed 1px rgb(173, 172, 172);
+}
+.tabl td, th {
+    padding: 0 15px;
+    border: dashed 1px rgb(173, 172, 172);
+    cursor: default;
+}
+.btn1, .btn2, .btn3 {
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(rgb(219, 233, 238), rgb(207, 207, 245), rgb(219, 233, 238));
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslateblue;
+    margin: 10px;
+    font-weight: 800px;
+    font-size: large;
+    border-radius: 10px;
+    border: 1px solid darkslateblue;
+}
+.btn2 {
+    width: fit-content;
+}
+.btn3 {
+    margin: 0;
+    border-radius: 0 10px 10px 0;
+}
+.wrapper {
+    width: fit-content;
+}
+.vvod {
+    display: flex;
+    justify-content: space-between;
+}
+.inp {
+    height: 29px;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 1px solid darkslateblue;
+}

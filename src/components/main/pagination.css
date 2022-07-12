@@ -1,0 +1,32 @@
+.page-link {
+    float: left;
+    width:30px;
+    height: 25px;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+    line-height: 25px;
+    margin-right: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.page-item, .current-page-item  {
+    list-style-type: none;
+    float: left;
+    width:35px;
+    height: 30px;
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-right: 3px;
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.current-page-item {
+    height: 26px;
+    border: 3px solid darkslateblue;
+    background-color: lightblue;
+    font-weight: 600;
+    line-height: 26px;
+}
