@@ -126,7 +126,10 @@ export const Main = () => {
     const currentPeople=data.slice(firstPersonIndex, lastPersonIndex);
     
     useEffect(()=> {
-      if (filtr==="") setData(reserve);
+      if (filtr==="") {
+        setData(reserve);
+        setInd(null);
+      }
     }, [filtr]); 
 
     const Paginate = (pageNumber)=> {

@@ -6,8 +6,22 @@
     line-height: 30px;
     border: dashed 1px rgb(173, 172, 172);
 }
+.tabl td:nth-child(1) {
+    width: 93px;
+}
+.tabl td:nth-child(2) {
+    width: 147px;
+}
+.tabl td:nth-child(3) {
+    width: 137px;
+}
+.tabl td:nth-child(4) {
+    width: 281px;
+}
+.tabl td:nth-child(5) {
+    width: 170px;
+}
 .tabl td, th {
-    padding: 0 15px;
     border: dashed 1px rgb(173, 172, 172);
     cursor: default;
 }
@@ -25,6 +39,7 @@
 }
 .btn2 {
     width: fit-content;
+    margin: 0;
 }
 .btn3 {
     margin: 0;
@@ -36,6 +51,7 @@
 .vvod {
     display: flex;
     justify-content: space-between;
+    width: 848px;
 }
 .inp {
     height: 29px;
